@@ -1,0 +1,109 @@
+#wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	max-width: 1300px;
+}
+
+body {
+	
+}
+
+#content {
+	margin-top: 0%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 100%;
+}
+
+#content img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+/* events header row */
+.eventListTitle {
+	text-align: center;
+	color: steelblue;
+}
+
+/* events header row */
+.eventListHeader {
+	color: steelblue;
+	font-size: 1em;
+	text-align: left;
+}
+
+/* day heading */
+.eventListDaySubHeader {
+	/*background-color: #2062B8; */
+		background-color: silver;
+	color: white;
+	font-style: italic;
+	text-align: center;
+	font-size: 1.25em;
+}
+
+/* combined events */
+.eventListCombinedEvents {
+	font-style: italic;
+	text-align: center;
+}
+
+/* event table */
+.eventList {
+	border: 1px solid silver;
+	padding: 2px;
+	margin-bottom: 6px;
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+/* time fields */
+.eventListTimeColumn {
+	text-align: center;
+	width: 16%;
+}
+
+/* desc fields */
+.eventListDescColumn {
+	text-align: center;
+	width: 42%;
+}
+
+@media screen and (max-width: 1200px) {
+	.eventList {
+		font-size: 1.8em;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.eventList {
+		font-size: 1.6em;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.eventList {
+		font-size: 1.4em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.eventList {
+		font-size: 1.2em;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.eventList {
+		font-size: 1em;
+	}
+}

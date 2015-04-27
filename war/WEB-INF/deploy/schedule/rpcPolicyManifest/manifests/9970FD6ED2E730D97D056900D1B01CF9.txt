@@ -1,0 +1,2 @@
+serviceClass: com.kenpritchard.schedule.client.ScheduleService
+path: 689931EF3F49664D67805701AA674817.gwt.rpc
